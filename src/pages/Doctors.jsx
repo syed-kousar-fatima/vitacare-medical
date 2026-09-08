@@ -80,23 +80,23 @@ const doctorsData = [
             </div>
             
             <div className="flex flex-wrap items-center gap-4">
-              <div className="flex items-center gap-2 px-4 py-3 bg-slate-50 dark:bg-slate-900 rounded-2xl w-auto">
+              <div className="flex items-center gap-2 px-4 py-3 bg-slate-50 dark:bg-slate-900 rounded-2xl w-full sm:w-auto">
                 <Filter size={16} className="text-[#0EA5E9]" />
                 <select 
                   value={selectedSpecialization}
                   onChange={(e) => setSelectedSpecialization(e.target.value)}
-                  className="bg-transparent font-poppins text-[13px] font-bold text-slate-900 dark:text-slate-300 outline-none cursor-pointer min-w-[150px]"
+                  className="w-full sm:w-auto min-w-0 sm:min-w-[150px] bg-transparent font-poppins text-[13px] font-bold text-slate-900 dark:text-slate-300 outline-none cursor-pointer"
                 >
                   {specializations.map(s => <option key={s} value={s} className="dark:bg-[#020617] text-slate-900 dark:text-white">{s}</option>)}
                 </select>
               </div>
 
-              <div className="flex items-center gap-2 px-4 py-3 bg-slate-50 dark:bg-slate-900 rounded-2xl w-auto">
+              <div className="flex items-center gap-2 px-4 py-3 bg-slate-50 dark:bg-slate-900 rounded-2xl w-full sm:w-auto">
                 <CheckCircle2 size={16} className="text-[#10B981]" />
                 <select 
                   value={availabilityFilter}
                   onChange={(e) => setAvailabilityFilter(e.target.value)}
-                  className="bg-transparent font-poppins text-[13px] font-bold text-slate-900 dark:text-slate-300 outline-none cursor-pointer min-w-[120px]"
+                  className="w-full sm:w-auto min-w-0 sm:min-w-[120px] bg-transparent font-poppins text-[13px] font-bold text-slate-900 dark:text-slate-300 outline-none cursor-pointer"
                 >
                   <option value="All" className="dark:bg-[#020617] text-slate-900 dark:text-white">All Status</option>
                   <option value="Available" className="dark:bg-[#020617] text-slate-900 dark:text-white">Available Now</option>
@@ -104,12 +104,12 @@ const doctorsData = [
                 </select>
               </div>
 
-              <div className="flex items-center gap-2 px-4 py-3 bg-slate-50 dark:bg-slate-900 rounded-2xl w-auto">
+              <div className="flex items-center gap-2 px-4 py-3 bg-slate-50 dark:bg-slate-900 rounded-2xl w-full sm:w-auto">
                 <SlidersHorizontal size={16} className="text-[#14B8A6]" />
                 <select 
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value)}
-                  className="bg-transparent font-poppins text-[13px] font-bold text-slate-900 dark:text-slate-300 outline-none cursor-pointer min-w-[140px]"
+                  className="w-full sm:w-auto min-w-0 sm:min-w-[140px] bg-transparent font-poppins text-[13px] font-bold text-slate-900 dark:text-slate-300 outline-none cursor-pointer"
                 >
                   <option value="rating" className="dark:bg-[#020617] text-slate-900 dark:text-white">Sort by Rating</option>
                   <option value="experience" className="dark:bg-[#020617] text-slate-900 dark:text-white">Sort by Experience</option>

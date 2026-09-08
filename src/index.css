@@ -23,10 +23,32 @@
 
   * {
     @apply border-[#E2E8F0] dark:border-[#334155] box-border p-0 m-0;
+    min-width: 0;
+  }
+
+  html, body, #root {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden !important;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+
+  img, svg, video, canvas {
+    max-width: 100%;
+  }
+
+  input, textarea, select, button {
+    max-width: 100%;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, a, span {
+    overflow-wrap: anywhere;
   }
 
   body {
-    @apply bg-[#F8FAFC] dark:bg-[#020617] text-[#0F172A] dark:text-[#F8FAFC] font-poppins antialiased overflow-x-hidden w-full transition-colors duration-300;
+    @apply bg-[#F8FAFC] dark:bg-[#020617] text-[#0F172A] dark:text-[#F8FAFC] font-poppins antialiased transition-colors duration-300;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -73,6 +95,7 @@
 
 main, section {
   width: 100%;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
