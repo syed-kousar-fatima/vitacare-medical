@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "10 Ways to Improve Your Heart Health Today",
+    "excerpt": "Discover simple yet effective lifestyle changes that can significantly reduce your risk of heart disease.",
+    "category": "Cardiology",
+    "date": "Sept 10, 2026",
+    "readTime": 8,
+    "author": "Dr. Sarah Johnson",
+    "authorRole": "Chief Cardiologist",
+    "authorImage": "https://i.pravatar.cc/150?u=1",
+    "image": "https://images.unsplash.com/photo-1505751172107-573225a91200?auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 2,
+    "title": "The Future of Neurology: AI in Brain Mapping",
+    "excerpt": "How artificial intelligence is revolutionizing the way we treat complex neurological disorders.",
+    "category": "Technology",
+    "date": "Sept 12, 2026",
+    "readTime": 12,
+    "author": "Dr. James Wilson",
+    "authorRole": "Senior Neurologist",
+    "authorImage": "https://i.pravatar.cc/150?u=2",
+    "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 3,
+    "title": "Mental Wellness in the Digital Age",
+    "excerpt": "Strategies for maintaining psychological balance while navigating a hyper-connected world.",
+    "category": "Wellness",
+    "date": "Sept 15, 2026",
+    "readTime": 6,
+    "author": "Dr. Emily Chen",
+    "authorRole": "Pediatric Specialist",
+    "authorImage": "https://i.pravatar.cc/150?u=3",
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80"
+  }
+]

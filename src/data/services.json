@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Cardiology",
+    "description": "Advanced heart care diagnostics, surgical expertise, and personalized rehabilitation programs.",
+    "icon": "Heart",
+    "category": "Cardiology"
+  },
+  {
+    "id": 2,
+    "title": "Neurology",
+    "description": "Comprehensive treatment for complex brain, spinal cord, and nervous system disorders.",
+    "icon": "Brain",
+    "category": "Neurology"
+  },
+  {
+    "id": 3,
+    "title": "Pediatrics",
+    "description": "Specialized medical care and wellness checkups for infants, children, and adolescents.",
+    "icon": "Baby",
+    "category": "Pediatrics"
+  },
+  {
+    "id": 4,
+    "title": "Laboratory Services",
+    "description": "State-of-the-art diagnostic testing with rapid results and high accuracy standards.",
+    "icon": "Microscope",
+    "category": "Laboratory"
+  },
+  {
+    "id": 5,
+    "title": "Dental Care",
+    "description": "Complete oral healthcare including preventive, cosmetic, and restorative dentistry.",
+    "icon": "Shield",
+    "category": "Dental"
+  },
+  {
+    "id": 6,
+    "title": "General Medicine",
+    "description": "Holistic approach to adult health management, prevention, and chronic illness care.",
+    "icon": "Activity",
+    "category": "General"
+  }
+]

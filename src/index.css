@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 248 250 252;
+    --foreground: 15 23 42;
+    --primary: 14 165 233;
+    --secondary: 20 184 166;
+    --border: 226 232 240;
+  }
+
+  .dark {
+    --background: 2 6 23;
+    --foreground: 248 250 252;
+    --primary: 56 189 248;
+    --secondary: 45 212 191;
+    --border: 51 65 85;
+  }
+
+  * {
+    @apply border-[#E2E8F0] dark:border-[#334155] box-border p-0 m-0;
+  }
+
+  body {
+    @apply bg-[#F8FAFC] dark:bg-[#020617] text-[#0F172A] dark:text-[#F8FAFC] font-poppins antialiased overflow-x-hidden w-full transition-colors duration-300;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-cormorant;
+  }
+
+  input, textarea, select {
+    @apply font-poppins outline-none;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/70 dark:bg-[#0F172A]/70 backdrop-blur-md border border-white/20 dark:border-white/10 shadow-xl;
+  }
+
+  .section-padding {
+    @apply py-12 md:py-20 lg:py-32;
+  }
+
+  .container-custom {
+    @apply max-w-[2560px] mx-auto px-4 sm:px-6 lg:px-12 xl:px-20 w-full;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#0EA5E9] to-[#14B8A6] dark:from-[#38BDF8] dark:to-[#2DD4BF];
+  }
+}
+
+.w-full {
+  width: 100% !important;
+}
+
+main, section {
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-[#F8FAFC] dark:bg-[#020617];
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-[#0EA5E9]/20 dark:bg-[#38BDF8]/20 rounded-full hover:bg-[#0EA5E9]/40 transition-colors;
+}
+
+::selection {
+  @apply bg-[#0EA5E9]/30 text-[#0F172A] dark:text-white;
+}
+
+.italic {
+  font-style: italic !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: inherit;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+}

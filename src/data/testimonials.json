@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Michael Brown",
+    "role": "Patient",
+    "text": "The level of care I received was exceptional. The doctors took their time to explain everything clearly and the facility is top-notch.",
+    "rating": 5
+  },
+  {
+    "name": "Elena Rodriguez",
+    "role": "Patient",
+    "text": "VitaCare has the most modern facilities I have ever visited. The online booking process was seamless and efficient.",
+    "rating": 5
+  },
+  {
+    "name": "David Smith",
+    "role": "Patient",
+    "text": "I highly recommend the cardiology department. Their quick response and expert treatment truly saved my life.",
+    "rating": 5
+  },
+  {
+    "name": "Syed Kousar",
+    "role": "Patient",
+    "text": "Professional staff and a very clean environment. The patient dashboard makes it easy to track all my medical records.",
+    "rating": 5
+  }
+]
